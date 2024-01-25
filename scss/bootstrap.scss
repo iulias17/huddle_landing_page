@@ -1,0 +1,11 @@
+// Font
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+// Colors
+$primary:hsl(322, 100%, 66%);
+$secondary: hsl(321, 100%, 78%);
+$warning: hsl(0, 100%, 63%);
+$light:hsl(207, 100%, 98%);
+$dark: hsl(192, 100%, 9%);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

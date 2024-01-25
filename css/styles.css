@@ -1,0 +1,59 @@
+.navbar .nav-item a:hover {
+  border-color: hsl(321, 100%, 78%);
+  box-shadow: 1px 1px 5px rgba(250, 108, 238, 0.5);
+}
+
+.navbar .nav-item a {
+  border: 1px solid hsl(322, 100%, 66%);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 564px) {
+  .navbar-brand img {
+    width: 8rem;
+  }
+  .navbar-brand a {
+    padding-left: 0;
+  }
+  .header p {
+    width: 85%;
+  }
+  .header .number {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .header .number img {
+    width: 15%;
+  }
+  .grow-together .illustration-1,
+  .flowing-conversations .illustration-2,
+  .your-users .illustration-3 {
+    order: 1;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0 3rem;
+  }
+  .footer .contact {
+    order: 1;
+  }
+  .footer .text {
+    width: 100% !important;
+  }
+  .footer .input-group {
+    display: block;
+    text-align: end;
+  }
+  .footer .input-group .form-control {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .header .main-paragraph {
+    width: 50%;
+  }
+}
